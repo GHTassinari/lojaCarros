@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  text-align: center;
+}
+
+header h1 {
+  background-color: #111;
+  color: #fff;
+  padding: 15px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.car-item {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  width: 300px;
+  text-align: left;
+}
+
+.car-item h2 {
+  color: #febe01;
+  margin-bottom: 10px;
+}
+
+.car-item .highlight {
+  color: #febe01;
+}
+
+.car-item .price {
+  font-weight: bold;
+}
+
+.proposal-button {
+  background-color: #febe01;
+  color: #332200;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.proposal-button:hover {
+  opacity: 0.9;
+}
